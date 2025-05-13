@@ -1,0 +1,8 @@
+services:
+  app:
+    image: python:3
+    ports:
+      - 30080:80
+    volumes:
+      - .:/usr/local/src/app
+    command: sleep infinity
